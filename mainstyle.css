@@ -1,9 +1,38 @@
+/* Fonts */
 @font-face {
     font-family: Cinzel;
     src: url(fonts/Cinzel-Regular.otf);
 }
 
+@font-face {
+    font-family: Smythe;
+    src: url(fonts/Smythe-Regular.ttf);
+}
+
 
 h1 {
     font-family: Cinzel;
+    color: aliceblue;
+    text-align: center;
+}
+
+#scene {
+    background: url("https://lh3.googleusercontent.com/proxy/8rX50cEjapljUOA96jDLvYO7BDuW9iIS6cbPNLpSl_IKVzNiHNpTsqUYjFQRfbgVxuzmpY3q3G_tmhzWcWp6HJqyCd1u4m4v-d9PS2LR-jE6NJJe3qjqf2_EqNDljvyaZmXzz00fYw") no-repeat;
+    height: 320px;
+    width: 512px;
+}
+#situation {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width:512px;
+    background-color: rgba(255, 255, 255, .5);
+    vertical-align:text-bottom;
+    margin-bottom: inherit;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
 }
