@@ -9,7 +9,6 @@
     src: url(fonts/Smythe-Regular.ttf);
 }
 
-
 h1 {
     font-family: Cinzel;
     color: aliceblue;
@@ -34,6 +33,7 @@ h1 {
     vertical-align: middle;
     margin-left:auto;
     margin-right:auto;
+    padding-top:10px;
 }
 #scene_power {
     background: url(images/powerschoice.jpg) no-repeat;
@@ -43,6 +43,7 @@ h1 {
     vertical-align: middle;
     margin-left:auto;
     margin-right:auto;
+    padding-top:10px;
 }
 #scene_invisobj {
     background: url(images/invis.jpg) no-repeat;
@@ -52,6 +53,7 @@ h1 {
     vertical-align: middle;
     margin-left:auto;
     margin-right:auto;
+    padding-top:10px;
 }
 #scene_telepobj {
     background: url(images/telport.jpg) no-repeat;
@@ -61,6 +63,7 @@ h1 {
     vertical-align: middle;
     margin-left:auto;
     margin-right:auto;
+    padding-top:10px;
 }
 
 #situation {
@@ -70,7 +73,7 @@ h1 {
     text-align: center;
     background-color: rgba(255, 255, 255, .5);
     vertical-align:text-bottom;
-    margin-top: 380px;
+    margin-top: 320px;
 }
 #situation-notop{
     font-family: Smythe;
@@ -79,6 +82,7 @@ h1 {
     text-align: center;
     background-color: rgba(255, 255, 255, .5);
     vertical-align:text-bottom;
+    margin-top: 380px;
 }
 a{
     text-decoration: none;
@@ -88,10 +92,11 @@ a:hover{
     text-decoration: underline;
 }
 
-.info {
+#info {
     font-family: Smythe;
-    font-size:16px;
+    font-size:18px;
     background-color:  rgba(255, 255, 255, .5);
     margin-left: 10%;
     margin-right: 10%;
+    border: 5px outset;
 }
