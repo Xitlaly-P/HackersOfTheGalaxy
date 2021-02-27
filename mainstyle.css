@@ -26,6 +26,25 @@ h1 {
     margin-left:auto;
     margin-right:auto;
 }
+#scene_start {
+    background: url(images/beforeAndAfter.jpg) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+}
+#scene_power {
+    background: url(images/powerschoice.jpg) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 #situation {
     font-family: Smythe;
     font-size: 30px;
@@ -35,10 +54,28 @@ h1 {
     vertical-align:text-bottom;
     margin-top: 380px;
 }
+#situation-notop{
+    font-family: Smythe;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgba(255, 255, 255, .5);
+    vertical-align:text-bottom;
+    margin-top: 300px;
+    margin-bottom: 10px;
+}
 a{
     text-decoration: none;
     color: black;
 }
 a:hover{
     text-decoration: underline;
+}
+
+.info {
+    font-family: Smythe;
+    font-size:16px;
+    background-color:  rgba(255, 255, 255, .5);
+    margin-left: 10%;
+    margin-right: 10%;
 }
