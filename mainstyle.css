@@ -146,6 +146,26 @@ h1 {
     margin-right:auto;
     padding-top:10px;
 }
+#scene_invis_animal_book_decide {
+    background: url(images/invis_bookchoice) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+}
+#scene_tele_animal_book_decide {
+    background: url(images/invis_bookchoice) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+}
 
 #situation {
     font-family: Smythe;
@@ -165,6 +185,7 @@ h1 {
     vertical-align:text-bottom;
     margin-top: 380px;
 }
+
 a {
     text-decoration: none;
     color: rgb(24, 24, 99);
