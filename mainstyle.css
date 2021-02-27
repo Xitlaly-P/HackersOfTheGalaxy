@@ -18,7 +18,7 @@ h1 {
 }
 
 #scene {
-    background: url(images/base.jpg) no-repeat;
+    background: url(images/cover.jpg) no-repeat;
     height: 700px;
     width: 1200px;
     text-align: center;
@@ -44,6 +44,15 @@ h1 {
     margin-left:auto;
     margin-right:auto;
 }
+#scene_invisobj {
+    background: url(images/invis.jpg) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 #situation {
     font-family: Smythe;
@@ -61,8 +70,6 @@ h1 {
     text-align: center;
     background-color: rgba(255, 255, 255, .5);
     vertical-align:text-bottom;
-    margin-top: 300px;
-    margin-bottom: 10px;
 }
 a{
     text-decoration: none;
