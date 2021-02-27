@@ -75,6 +75,46 @@ h1 {
     margin-right:auto;
     padding-top:10px;
 }
+#scene_invis_animal {
+    background: url(images/invisAnimal.jpg) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+}
+#scene_tele_animal {
+    background: url(images/teleanimal.jpg) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+}
+#scene_invis_animal_run {
+    background: url(images/invisAnimalKeep) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+}
+#scene_tele_animal_run {
+    background: url(images/teleanimalkeep) no-repeat;
+    height: 700px;
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+}
 
 #situation {
     font-family: Smythe;
